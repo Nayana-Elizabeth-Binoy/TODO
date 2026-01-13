@@ -1,0 +1,11 @@
+todo-app
+│── index.html
+        Input box → type task
+        Button → calls addTask()
+        <ul> → tasks will appear here
+│── style.css
+│── script.js
+        Gets text from input
+        Checks if empty
+        Creates a new <li>
+        Adds it to the list

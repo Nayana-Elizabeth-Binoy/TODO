@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO SITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><form onsubmit="addTask(event)">
+        <label for="taskInput">Add your tasks for today:</label>
+        <input type="text" id="taskInput" placeholder="Enter the task" oninput="previewTask()">
+        <button type="submit">Add</button>
+        <li class="preview" id="preview"></li>
+        <ul id="taskList"></ul>
+
+    </form></center>
+    <script src="script.js"></script>
+</body>
+</html>

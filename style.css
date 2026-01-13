@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'custom-font';
+    src: url("font/Chubby Bakery.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #4d0393;
+    color: rgb(233, 245, 255);
+    font-size: 20px;
+    font-family: 'custom-font';
+    letter-spacing: 1px;
+}
+
+.preview{
+     color: rgb(239, 190, 255);
+}
